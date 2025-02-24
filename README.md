@@ -12,3 +12,5 @@ It is a safe space for people to just post what they struggle with right now. Th
 - See others posts
 - Have about, legal, etc. pages
 - Follow accessibility standards
+
+#index.html is main page
