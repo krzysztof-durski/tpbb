@@ -1,7 +1,7 @@
 html{
     background-color: #e2b1e0;
     font-size: 15px;
-    font-family: "Atkinson Hyperlegible", monospace;
+    font-family: "Atkinson Hyperlegible Mono", sans-serif;
     color: brown;
     letter-spacing: 2px;
     text-shadow: 2px 2px 5px #db98d1;
@@ -12,6 +12,8 @@ html{
     text-align: center;
     font-size: 50px;
     color: #12a0dd;
+    width: 100%;
+    padding: 10px;
 }
 
 h2{
@@ -73,6 +75,7 @@ a{
     box-shadow: #000000 1px 1px 10px;
     margin: 20px auto;
     width: 500px;
+    max-width: 90%;
 }
 
 .subsection{
@@ -95,5 +98,40 @@ a{
         padding: 10px;
         font-size: 20px;
         padding-top: 0px auto;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+      font-size: 25px;
+    }
+    #title{
+        font-size: 75px;
+    }
+    .box{
+        max-width: 90%;
+        max-width: 1080px;
+    }
+    img{
+        max-width: 35%;
+        max-width: 300px;
+    }
+}
+  
+  
+@media (max-width: 500px) {
+    body {
+      font-size: 20px;
+    }
+    .box{
+        max-width: 300px;
+        max-width: 90%;
+    }
+    h2{
+        font-size: 15px;
+    }
+    #title{
+        font-size: 40px;
+        max-width: 90%;
     }
 }
